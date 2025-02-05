@@ -116,3 +116,21 @@ body {
     width: 20px;
     height: 20px;
 }
+
+/* Swiper */
+.swiper-wrapper {
+    height: 500px;
+}
+
+.swiper-slide {
+    max-height: 500px;
+}
+
+.swiper-slide img {
+    height: 500px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: black;
+}

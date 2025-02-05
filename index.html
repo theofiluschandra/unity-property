@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://theofiluschandra.github.io/unity-property/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://theofiluschandra.github.io/unity-property/css/landing.css" />
     <link rel="stylesheet" href="https://theofiluschandra.github.io/unity-property/css/global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +16,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Rumah Baru Minimalis di Pulau Dewata</title>
 </head>
 
@@ -38,9 +43,72 @@
         </div>
     </header>
     <section class="section-banner-home">
-        <div class="slider-container">
-            <img src="https://theofiluschandra.github.io/unity-property/img/3-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
-                alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/3-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/2-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div>
+                <!-- <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/4-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div> -->
+                <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/5-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/6-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/7-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/8-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div>
+                <!-- <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/9-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div> -->
+                <!-- <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/10-jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div> -->
+                <div class="swiper-slide">
+                    <div class="slider-item">
+                        <img src="https://theofiluschandra.github.io/unity-property/img/jual-rumah-minimalis-murah-bali-denpasar-tabanan.jpeg"
+                            alt="jual-rumah-minimalis-murah-bali-denpasar-tabanan">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
 
@@ -142,5 +210,13 @@
         </div>
     </footer>
 </body>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
 
 </html>
