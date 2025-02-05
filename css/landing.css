@@ -1,0 +1,118 @@
+body {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top-header {
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    padding: 25px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.top-header a {
+    text-decoration: underline;
+    font-weight: 500;
+    color: white;
+}
+
+.landing-page-header {
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.landing-page-header .header-first {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.landing-page-header .header-second {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Property Icon */
+.section-icon-spec .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+    gap: 20px;
+
+}
+
+.section-icon-spec .icon-wrapper {
+    width: 20px;
+}
+
+.section-icon-spec .icon-wrapper img {
+    object-fit: contain;
+}
+
+.section-icon-spec .col-icon .icon-container {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 10px;
+}
+
+
+/* Property Desc */
+.section-property-desc .container {
+    padding: 50px 0px;
+}
+
+.section-property-desc .section-title {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.section-property-desc .section-desc {
+    text-align: justify;
+    font-weight: 300;
+    line-height: 1.9em;
+}
+
+.section-property-desc .section-desc .list-container {
+    padding-top: 20px
+}
+
+.section-property-desc .section-desc .list-title {
+    font-weight: 500;
+}
+
+.section-property-desc .section-desc .list-spec-container {
+    margin: 0px;
+    padding-right: 40px;
+}
+
+/* footer */
+.landing-footer {
+    background: black;
+    color: white;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.landing-footer .footer-cta {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    height: 55px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.landing-footer .icon-wa {
+    width: 20px;
+    height: 20px;
+}
